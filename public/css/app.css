@@ -11846,7 +11846,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body > *:not(header) {
+body > *:not(header, footer) {
   margin-left: 15%;
   margin-right: 15%;
 }
