@@ -1,0 +1,25 @@
+{
+  "name": "shop",
+  "version": "0.0.5",
+  "description": "First Bootstrap project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasfi12/first-bootstrap.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Sufyan Muhammad",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Sasfi12/first-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Sasfi12/first-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
