@@ -11846,7 +11846,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
+body > *:not(header) {
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -11856,7 +11856,6 @@ nav div {
 }
 nav div .cart-button {
   display: flex;
-  justify-content: center;
   align-items: center;
   border: solid 0.5px;
   gap: 0.5rem;
