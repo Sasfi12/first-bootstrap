@@ -11848,12 +11848,15 @@ textarea.form-control-lg {
 }
 body > *:not(header, footer) {
   margin: 0;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 nav div {
   text-align: center;
+}
+nav div .start-boot {
+  margin-left: calc(var(--center-abs-margin) + 105px);
 }
 nav div .cart-button {
   display: flex;
@@ -11880,6 +11883,11 @@ nav div .cart-button img {
 }
 nav div .cart-button .cart-button:hover {
   background-color: white !important;
+}
+
+header {
+  padding-top: 50rem !important;
+  padding-bottom: 50rem !important;
 }
 
 /*# sourceMappingURL=app.css.map */
